@@ -21,23 +21,23 @@ modules:
       - cp -R bundle/* /app/
       - mkdir /app/bin/
       - ln -s ../open_alert_viewer /app/bin/open_alert_viewer
-      - install -Dm644 sources/assets/icon/open_alert_viewer_circle_full.svg /app/share/icons/hicolor/scalable/apps/studio.okcode.open_alert_viewer.svg
-      - install -Dm644 sources/linux/studio.okcode.open_alert_viewer.desktop /app/share/applications/studio.okcode.open_alert_viewer.desktop
-      - install -Dm644 sources/linux/studio.okcode.open_alert_viewer.metainfo.xml /app/share/metainfo/studio.okcode.open_alert_viewer.metainfo.xml
+      - install -Dm644 sources/assets/icon/open_alert_viewer_circle_footprint.svg /app/share/icons/hicolor/scalable/apps/studio.okcode.open_alert_viewer.svg
+      - install -Dm644 sources/linux/oav-custom/studio.okcode.open_alert_viewer.desktop /app/share/applications/studio.okcode.open_alert_viewer.desktop
+      - install -Dm644 sources/linux/oav-custom/studio.okcode.open_alert_viewer.metainfo.xml /app/share/metainfo/studio.okcode.open_alert_viewer.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/okcode-studio/open_alert_viewer/archive/refs/tags/v1.1.12.tar.gz
-        sha256: fa4b442eb36c7b5c47e51b668d6a6dde1abb8f61e8735ae932de503a5a2978a2
+        url: https://github.com/okcode-studio/open_alert_viewer/archive/refs/tags/v1.1.14.tar.gz
+        sha256: 6dffbd7b124ad06fe375ef8daab6c5e73fd943e01a8d7f5dac2c0320df908e14
         dest: sources
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.1.12/oav-bundle-linux-x86_64.tar.gz
-        sha256: 2ac9c50523d097810c974a523a5a07cf9843ed237b6d8e226e36a79f7f07c449
+        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.1.14/oav-bundle-ubuntu-noble-x86_64.tar.gz
+        sha256: 67669a21b0f8f1eb3fcba760c5a3b03dfa0e55afdb44df192d8cf54d6d1a89d1
         dest: bundle
       - type: archive
         only-arches:
           - aarch64
-        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.1.12/oav-bundle-linux-aarch64.tar.gz
-        sha256: c23227f98a4687d395ad528b0520106fdb339762d751d30c05c051e3c5bb0e20
+        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.1.14/oav-bundle-ubuntu-noble-aarch64.tar.gz
+        sha256: 6dff876695fecd01cd66f35a53d543c9ab24a9ad1fa50c40ae13737eed6c3aea
         dest: bundle
