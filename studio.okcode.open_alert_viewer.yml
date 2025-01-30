@@ -26,18 +26,18 @@ modules:
       - install -Dm644 sources/linux/oav-custom/studio.okcode.open_alert_viewer.metainfo.xml /app/share/metainfo/studio.okcode.open_alert_viewer.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/okcode-studio/open_alert_viewer/archive/refs/tags/v1.1.14.tar.gz
-        sha256: 6dffbd7b124ad06fe375ef8daab6c5e73fd943e01a8d7f5dac2c0320df908e14
+        url: https://github.com/okcode-studio/open_alert_viewer/archive/refs/tags/v1.1.15.tar.gz
+        sha256: f5c181fb96f977c0f596d827b3a5f5f740e65651530536e65c0061a3a346eba3
         dest: sources
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.1.14/oav-bundle-ubuntu-noble-x86_64.tar.gz
-        sha256: 67669a21b0f8f1eb3fcba760c5a3b03dfa0e55afdb44df192d8cf54d6d1a89d1
+        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.1.15/oav-bundle-ubuntu-noble-x86_64.tar.gz
+        sha256: d365ac9567077beb05161cd612096e0aea0752026f14fb6a68769d551371b456
         dest: bundle
       - type: archive
         only-arches:
           - aarch64
-        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.1.14/oav-bundle-ubuntu-noble-aarch64.tar.gz
-        sha256: 6dff876695fecd01cd66f35a53d543c9ab24a9ad1fa50c40ae13737eed6c3aea
+        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.1.15/oav-bundle-ubuntu-noble-aarch64.tar.gz
+        sha256: fa6c72ea7433e12b4a9dbf1f8982aa418acc269b6ea6b41d786ab3cb1a0a7ead
         dest: bundle
