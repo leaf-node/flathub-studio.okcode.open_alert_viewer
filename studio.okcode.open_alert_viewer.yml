@@ -26,18 +26,18 @@ modules:
       - install -Dm644 sources/linux/oav-custom/studio.okcode.open_alert_viewer.metainfo.xml /app/share/metainfo/studio.okcode.open_alert_viewer.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/okcode-studio/open_alert_viewer/archive/refs/tags/v1.2.0.tar.gz
+        url: https://github.com/sandpiper-codes/open_alert_viewer/archive/refs/tags/v1.2.0.tar.gz
         sha256: d1909a92148aaa8eda8dd3edc4574a5acc9c46151d4345c7ad6c829c27af0d7a
         dest: sources
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.2.0/oav-bundle-ubuntu-noble-x86_64.tar.gz
+        url: https://github.com/sandpiper-codes/open_alert_viewer/releases/download/v1.2.0/oav-bundle-ubuntu-noble-x86_64.tar.gz
         sha256: 1c66ff972dc24fe38a9bf26e9fc39b975b7d6ffcf75b05f571afe6acebe15d15
         dest: bundle
       - type: archive
         only-arches:
           - aarch64
-        url: https://github.com/okcode-studio/open_alert_viewer/releases/download/v1.2.0/oav-bundle-ubuntu-noble-aarch64.tar.gz
+        url: https://github.com/sandpiper-codes/open_alert_viewer/releases/download/v1.2.0/oav-bundle-ubuntu-noble-aarch64.tar.gz
         sha256: 98677249952378dc8b2746c7a2dfaab2bb271f85f523951be8b653bec2b065b0
         dest: bundle
