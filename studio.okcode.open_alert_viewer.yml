@@ -9,6 +9,7 @@ sdk: org.freedesktop.Sdk
 command: open_alert_viewer
 finish-args:
   - --share=ipc
+  - --share=network
   - --socket=fallback-x11
   - --socket=wayland
   - --device=dri
