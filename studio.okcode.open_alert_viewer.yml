@@ -26,18 +26,18 @@ modules:
       - install -Dm644 sources/linux/oav-custom/studio.okcode.open_alert_viewer.metainfo.xml /app/share/metainfo/studio.okcode.open_alert_viewer.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/sandpiper-codes/open_alert_viewer/archive/refs/tags/v1.3.0.tar.gz
-        sha256: 2f7c6335375af368374e4dce42c92bb2b718004acee641eb1e75763e9f3ef1df
+        url: https://github.com/sandpiper-codes/open_alert_viewer/archive/refs/tags/v1.3.1.tar.gz
+        sha256: c562b1e938ec6ae3f357b0f1ebe0a9a3fc84734abda95758d315c96cf61c79ce
         dest: sources
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/sandpiper-codes/open_alert_viewer/releases/download/v1.3.0/oav-bundle-ubuntu-noble-x86_64.tar.gz
-        sha256: 84714abe1f9d87f82841bc6165aa2acf927296297caac518d39e1e98e309dfd0
+        url: https://github.com/sandpiper-codes/open_alert_viewer/releases/download/v1.3.1/oav-bundle-ubuntu-noble-x86_64.tar.gz
+        sha256: fec8448a57a86220544dbd779f63ec2353d1e554adbcc5982f5a74cdf2f6dbf3
         dest: bundle
       - type: archive
         only-arches:
           - aarch64
-        url: https://github.com/sandpiper-codes/open_alert_viewer/releases/download/v1.3.0/oav-bundle-ubuntu-noble-aarch64.tar.gz
-        sha256: 86c626588f76d3be3cd6d967bcff53a15456c518e0f0a2d576f4416ceeb7a3b1
+        url: https://github.com/sandpiper-codes/open_alert_viewer/releases/download/v1.3.1/oav-bundle-ubuntu-noble-aarch64.tar.gz
+        sha256: 3190d21090804bb7881f14508574d7aa4dbc6e2445b7b85bc97d54795ce0c449
         dest: bundle
