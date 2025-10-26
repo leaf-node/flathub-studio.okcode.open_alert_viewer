@@ -27,18 +27,18 @@ modules:
       - install -Dm644 sources/linux/oav-custom/studio.okcode.open_alert_viewer.metainfo.xml /app/share/metainfo/studio.okcode.open_alert_viewer.metainfo.xml
     sources:
       - type: archive
-        url: https://codeberg.org/leaf-node/open_alert_viewer/archive/v1.3.2.tar.gz
-        sha256: a68607cf5b125c5eeb25797b4dac00bcba8873d643da7f61128337c9f0ff3ee1
+        url: https://codeberg.org/leaf-node/open_alert_viewer/archive/v1.3.4.tar.gz
+        sha256: ce07c4987ef3ea88a91d629c8fb00d087983436e762da012d12d596c2cbe7cfe
         dest: sources
       - type: archive
         only-arches:
           - x86_64
-        url: https://codeberg.org/leaf-node/open_alert_viewer/releases/download/v1.3.2/oav-bundle-ubuntu-noble-x86_64.tar.gz
-        sha256: 400d2aa943c3716c89863ed633dcf24a334a03a0d1f2abf2da43a9bcebf3af69
+        url: https://codeberg.org/leaf-node/open_alert_viewer/releases/download/v1.3.4/oav-bundle-ubuntu-noble-x86_64.tar.gz
+        sha256: 1e64a7f4ec5566f5cda3017733ed7302aae43fb18bfce16ac2262c467d27bae4
         dest: bundle
       - type: archive
         only-arches:
           - aarch64
-        url: https://codeberg.org/leaf-node/open_alert_viewer/releases/download/v1.3.2/oav-bundle-ubuntu-noble-aarch64.tar.gz
-        sha256: ee08dc73dc842c4d3a2d0f35decb6b1582612e0e40607ad056048ecea8842831
+        url: https://codeberg.org/leaf-node/open_alert_viewer/releases/download/v1.3.4/oav-bundle-ubuntu-noble-aarch64.tar.gz
+        sha256: 13c762db99367f0a65d1ff5b537e45201522f0348dc435a0bdeeab0b43c76b62
         dest: bundle
