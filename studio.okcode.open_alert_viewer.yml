@@ -4,7 +4,7 @@
 #
 id: studio.okcode.open_alert_viewer
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: "26.08"
 sdk: org.freedesktop.Sdk
 command: open_alert_viewer
 finish-args:
@@ -27,18 +27,18 @@ modules:
       - install -Dm644 sources/linux/oav-custom/studio.okcode.open_alert_viewer.metainfo.xml /app/share/metainfo/studio.okcode.open_alert_viewer.metainfo.xml
     sources:
       - type: archive
-        url: https://codeberg.org/leaf-node/open_alert_viewer/archive/v1.3.4.tar.gz
-        sha256: ce07c4987ef3ea88a91d629c8fb00d087983436e762da012d12d596c2cbe7cfe
+        url: https://codeberg.org/leaf-node/open_alert_viewer/archive/v1.3.5.tar.gz
+        sha256: 155f0538782139deac2deae58b864fdd7f50e4f19a81c0cd8f45968d269c5cb9
         dest: sources
       - type: archive
         only-arches:
           - x86_64
-        url: https://codeberg.org/leaf-node/open_alert_viewer/releases/download/v1.3.4/oav-bundle-ubuntu-noble-x86_64.tar.gz
-        sha256: 1e64a7f4ec5566f5cda3017733ed7302aae43fb18bfce16ac2262c467d27bae4
+        url: https://codeberg.org/leaf-node/open_alert_viewer/releases/download/v1.3.5/oav-bundle-ubuntu-resolute-x86_64.tar.gz
+        sha256: ab31bf147c7c9840759ef9527df84b7807877912ca61738c22fe3008244498e9
         dest: bundle
       - type: archive
         only-arches:
           - aarch64
-        url: https://codeberg.org/leaf-node/open_alert_viewer/releases/download/v1.3.4/oav-bundle-ubuntu-noble-aarch64.tar.gz
-        sha256: 13c762db99367f0a65d1ff5b537e45201522f0348dc435a0bdeeab0b43c76b62
+        url: https://codeberg.org/leaf-node/open_alert_viewer/releases/download/v1.3.5/oav-bundle-ubuntu-resolute-aarch64.tar.gz
+        sha256: 4b8ea0f615c078066a3345644583e355a9d62b7581424b5600d8b9c85c4a6a67
         dest: bundle
